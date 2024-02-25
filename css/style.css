@@ -18,8 +18,8 @@ Change your color here
 ////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 :root {
-    --primary-color: #694bea;
-    --secondary-color: #f8cf46;
+    --primary-color: #297aa0;
+    --secondary-color: #56a5b9;
 }
 
 ::-moz-selection {
@@ -82,7 +82,7 @@ a.link::before {
     height: 2px;
     background: #d9d9d9;
     position: absolute;
-    bottom: -4px;
+    bottom: 4px;
     left: 0;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out
