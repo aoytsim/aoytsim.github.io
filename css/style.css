@@ -43,7 +43,18 @@ Change your color here
 body {
     padding-top: 120px;
     font-family: 'Muli', sans-serif;
+
+
+.portfolio-item{
+	/*width:100%;*/
 }
+.portfolio-item .item{
+	/*width:303px;*/
+	float:left;
+	margin-bottom:10px;
+}
+
+
 
 .h1,
 .h2,
