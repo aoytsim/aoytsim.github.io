@@ -221,6 +221,8 @@
 
         </div>
     </section>
+    <div id="footer-placeholder"></div>
+
     <!-- footer 
     <footer class="footer pb-5">
         <div class="container">
@@ -268,6 +270,26 @@
     <script>
         Fancybox.bind("[data-fancybox]", {
             // Options if needed
+        });
+    </script>
+    <!--header and footer script-->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Load header
+            fetch('components/header.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('header-placeholder').innerHTML = data;
+                })
+                .catch(error => console.error('Error loading header:', error));
+    
+            // Load footer
+            fetch('components/footer.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('footer-placeholder').innerHTML = data;
+                })
+                .catch(error => console.error('Error loading footer:', error));
         });
     </script>
 </body>
