@@ -35,11 +35,11 @@
     <header>
         <div class="container">
             <div class="row d-flex align-content-center">
-                <div class="col-md-7">
+                <div class="col-md-12">
                     <div class="headline">
                         <div class="headline-content">
-                            <h1 class="headline-title display-3">ANNIE OY TSIM</h1>
-                            <p class="headline-subtitle">I do a bit of everything creative. Let's make things happen!</p>
+                            <center><h1 class="headline-title display-3">ANNIE O Y TSIM</h1>
+                            <p class="headline-subtitle">I do a bit of everything creative. Let's make things happen!</p></center>
                         </div>
                     </div>
                 </div>
@@ -50,10 +50,10 @@
     <section class="space-md">
         <!-- portfolio -->
 		<div id="portfolio" class="container">
-			<div class="headline"><div class="headline-content">
-					<a id="Work"><h3 class="headline-title display-3">Work</h1></a></div></div>
+<!---			<div class="headline"><div class="headline-content">
+					<a id="Work"><h3 class="headline-title display-3">Work</h1></a></div></div>-->
             <div id="portfolio-filters">
-                <ul id="filters" class="px-3 py-5">
+                <center><ul id="filters" class="px-3 py-5">
                     <li><a href="*" class="active">All</a></li>
                     <li><a href=".design">Design & Production</a></li>
                     <li><a href=".video">Video</a></li>
@@ -63,9 +63,24 @@
                     <li><a href=".interactive">Interactive</a></li>
                     <li><a href=".illustration">Illustration</a></li>
                     <li><a href=".other">Other</a></li>
-                </ul>
+                </ul></center>
             </div>
             <div class="grid" data-cols="3" data-margin="30" data-height="1" data-masonry='{ "columnWidth": 200, "itemSelector": ".entry" }'>
+
+            <div class="entry work-entry design event projman other">
+                <a href="project.html">
+                    <div class="entry-image imageBG" data-img="img/GGJHKevent/opening.jpg"></div>
+                    <div class="work-entry-hover">
+                        <div class="work-entry-content">
+                            <div class="work-entry-title">Global Game Jam 2025 (Hong Kong)</div>
+                            <div class="work-entry-cat">Design & Production • Event • Project Management</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- end:entry -->
+
+
                 <!-- entry -->
                 <div class="entry work-entry event design video">
                     <a href="CUHKInnoday.html">
@@ -78,6 +93,7 @@
                         </div>
                     </a>
                 </div>
+
                 <!-- end:entry -->
                 <div class="entry work-entry event design socialmedia">
                     <a href="picenrecruitment.html">
@@ -85,12 +101,25 @@
                         <div class="work-entry-hover">
                             <div class="work-entry-content">
                                 <div class="work-entry-title">PI Centre Recruitment</div>
-                                <div class="work-entry-cat">Design & Production • Event</div>
+                                <div class="work-entry-cat">Design & Production • Event • Social</div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <!-- end:entry -->
+                <div class="entry work-entry design video">
+                    <a href="CompVid.html">
+                        <div class="entry-image imageBG" data-img="img/CompVid/IMG_20200912_114129.jpg"></div>
+                        <div class="work-entry-hover">
+                            <div class="work-entry-content">
+                                <div class="work-entry-title">Company videos</div>
+                                <div class="work-entry-cat">Design & Production • Video</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end:entry -->
+                 
                 <div class="entry work-entry design event socialmedia">
                     <a href="GE2015.html">
                         <div class="entry-image imageBG" data-img="img/GE2015/7634310_1_orig.jpg"></div>
@@ -103,42 +132,8 @@
                     </a>
                 </div>
                 <!-- end:entry -->
-                <div class="entry work-entry branding">
-                    <a href="project.html">
-                        <div class="entry-image imageBG" data-img="img/photo-1558100984-01e6cd6fc9aa.jpg"></div>
-                        <div class="work-entry-hover">
-                            <div class="work-entry-content">
-                                <div class="work-entry-title">Sunday Breakfast</div>
-                                <div class="work-entry-cat">Branding</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end:entry -->
-                <div class="entry work-entry campaigns">
-                    <a href="project.html">
-                        <div class="entry-image imageBG" data-img="img/photo-1558082513-13668c3b7425.jpg"></div>
-                        <div class="work-entry-hover">
-                            <div class="work-entry-content">
-                                <div class="work-entry-title">Sunday Breakfast</div>
-                                <div class="work-entry-cat">All</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end:entry -->
-                <div class="entry work-entry branding digital">
-                    <a href="project.html">
-                        <div class="entry-image imageBG" data-img="img/photo-1557941760-987c3f403d5a.jpg"></div>
-                        <div class="work-entry-hover">
-                            <div class="work-entry-content">
-                                <div class="work-entry-title">Pine Street</div>
-                                <div class="work-entry-cat">Web + Digital</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end:entry -->
+
+
                 <div class="entry work-entry digital">
                     <a href="project.html">
                         <div class="entry-image imageBG" data-img="img/photo-1534073828943-f801091bb18c.jpg"></div>
@@ -214,7 +209,7 @@
         </div>
         <!-- /end:portfolio -->
     </section>
-    <!-- footer -->
+    <!-- footer 
     <footer class="footer pb-5">
         <div class="container">
             <div class="row">
@@ -253,7 +248,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer>-->
     <!-- /main content -->
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
