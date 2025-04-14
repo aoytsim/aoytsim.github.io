@@ -33,7 +33,7 @@ template.innerHTML=`
                 </div>
             </div>
         </div>
-    </footer>-->
+    </footer>
 `
 
 document.body.appendChild(template.content)
