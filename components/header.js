@@ -1,4 +1,4 @@
-<header>
+<head>
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top py-3" id="mainNav">
         <div class="container">
             <a class="navbar-brand js-scroll-trigger" href="index.html">AOYTSIM</a>
@@ -14,4 +14,4 @@
             </div>
         </div>
     </nav>
-</header>
+</head>
